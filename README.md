@@ -6,6 +6,12 @@ Réalisé par :
 
     Yessine Miled & Mohamed Naouar
     
+Veillez Installer les packages suivants :
+
+    library(maptools)
+    library(rgeos)
+    library(reshape2)
+    
 Pour executer le projet tappez :
 
     Rscript projet.R
