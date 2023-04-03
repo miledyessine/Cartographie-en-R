@@ -412,7 +412,7 @@ if (critere == "inf") {
 fdc@data$typo <- fdc@data$tmp1 + fdc@data$tmp2 + fdc@data$tmp3
 fdc@data$typo <- as.factor(fdc@data$typo)
 
-# couleurs
+# colors
 colours <- c("white", "#9bd5e0", "#72a9c3", "#40a5b3", "#8c9e67", "#3cbc6b", "#276547", "#0b2d89")
 fdc@data$col <- colours[1]
 fdc@data$col[fdc@data$typo == 1] <- colours[2]
@@ -426,7 +426,7 @@ fdc@data$col[fdc@data$typo == 7] <- colours[8]
 # ===================================
 # 5. Cartographie
 # ===================================
-
+print("Cartographie")
 cols <- as.character(fdc@data$col)
 plot(fdc, col = cols)
 
